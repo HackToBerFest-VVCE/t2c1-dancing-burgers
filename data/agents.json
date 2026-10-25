@@ -1,0 +1,32 @@
+{
+  "retriever-a": {
+    "asset": "DjE7pFQnyqPvXmNsLAxco4FgsLrSD8AdQRB6MNBPWGyd",
+    "role": "retriever",
+    "signature": "5Dyr2juAfL3Zeo3Ci8nkU1mVBfkvyrYnn8PWK74Ycq3bheJayvjgDWf2iPmsJMKNrxB4nnVM4GSVUJEFaNFmKKR1"
+  },
+  "retriever-b": {
+    "asset": "9rhBT8pg47QArPEas2AG4Ugvz2qEMEpmgBy5NXfCptag",
+    "role": "retriever",
+    "signature": "5McSc1xRkR4jGipEzduqFQN5vbRHaUYAD2Uft1BiniZyBjEumqRTgT4wCh3wXRrZt1SL89vrR4CMtBREnXjJPAA1"
+  },
+  "verifier-a": {
+    "asset": "G5GD28AGhuNwqCAqzrqJUYTkrL1eq6XLy6bzLicfeoo3",
+    "role": "verifier",
+    "signature": ""
+  },
+  "writer-a": {
+    "asset": "AbCgn3qQ3UTTuaf6j79po66MpUzP7Zqgwu4ToetKqQwB",
+    "role": "writer",
+    "signature": "4wqMeT3sEz7GVcDpoQwDZ31suByAF8AyMnPqbQEMtySMpHpRbSDDSXC8QuogjtN8o7HtaHKidrdyAMCqgngzY7xv"
+  },
+  "bad-liar": {
+    "asset": "Aav1ANH241JWqKK9kWtnH8NcZe861ig6mvB6juUiFxeQ",
+    "role": "retriever",
+    "signature": "3HraDpRo8UM72be4kVU2RG3mPqNgtqKMseZt9rRatAZESW3oSWXygucfJVBSJL3VKU6datGXmi9kH7TKkaZbNeja"
+  },
+  "bad-slow": {
+    "asset": "DDrF9QRCSZjkJ1Mq7FrGdz7DvWTdBLLoXLwVRLNXN1yN",
+    "role": "retriever",
+    "signature": "5gtSm7qBRcj37tCUFMjxhWwaQcWMmExY5TFLnbkwRB4B7yaiYUZoit5nmFT7qZamGmEkXEAVLzSoErzEiR9hFt8Q"
+  }
+}
