@@ -3,8 +3,8 @@
 import fs from 'node:fs';
 import { Keypair } from '@solana/web3.js';
 
-const ENV = '.env';
-let env = fs.existsSync(ENV) ? fs.readFileSync(ENV, 'utf8') : fs.readFileSync('.env.example', 'utf8');
+const ENV = new URL('../../.env', import.meta.url);
+let env = fs.existsSync(ENV) ? fs.readFileSync(ENV, 'utf8') : fs.readFileSync(new URL('../../.env.example', import.meta.url), 'utf8');
 
 for (const name of ['OWNER_PRIVATE_KEY', 'ORCHESTRATOR_PRIVATE_KEY']) {
   const line = env.match(new RegExp(`^${name}=(.*)$`, 'm'));
